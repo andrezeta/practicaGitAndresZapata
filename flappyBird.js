@@ -34,3 +34,21 @@ var scor = new Audio();
 
 fly.src = "sounds/fly.mp3";
 scor.src = "sounds/score.mp3";
+
+// on key down
+
+document.addEventListener("keydown",moveUp);
+
+function moveUp(){
+    bY -= 25;
+    fly.play();
+}
+
+// pipe coordinates
+
+var pipe = [];
+
+pipe[0] = {
+    x : cvs.width,
+    y : 0
+};
