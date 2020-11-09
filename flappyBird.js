@@ -51,6 +51,7 @@ var pipe = [];
 pipe[0] = {
     x : cvs.width,
     y : 0
+<<<<<<< HEAD
 };
 
 // draw images
@@ -104,3 +105,6 @@ function draw(){
 }
 
 draw();
+=======
+};
+>>>>>>> 293d7d181f178cf2450ed5500892ff741008f301
